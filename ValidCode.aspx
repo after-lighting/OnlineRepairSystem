@@ -1,0 +1,1 @@
+<%@ page language="C#" autoeventwireup="true" inherits="ValidCode, App_Web_of5skqgw" enableEventValidation="false" %>

@@ -1,0 +1,139 @@
+﻿
+
+body {
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    
+}
+
+.table-heading {
+    background-image: -webkit-linear-gradient(top, #f0f0f0, #dfdfdf);
+    background-image: -moz-linear-gradient(top, #f0f0f0, #dfdfdf);
+    background-image: -ms-linear-gradient(top, #f0f0f0, #dfdfdf);
+    background-image: -o-linear-gradient(top, #f0f0f0, #dfdfdf);
+    background-image: linear-gradient(to bottom, #f0f0f0, #dfdfdf);
+}
+
+.table .dropdown-menu {
+    min-width: 60px;
+   
+}
+
+.table th {
+    white-space: nowrap;
+}
+
+.pi {
+    font-size: 18px;
+}
+
+.mb9 {
+    margin-bottom: 9px;
+}
+
+.kuang {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.tow-list-message {
+    background: #f8f8f8;
+    border-bottom: 1px solid #CCC;
+    padding: 3px 3px 5px 3px;
+    margin: 0;
+}
+
+.one-list-message {
+    background: #f8f8f8;
+    border-bottom: 1px solid #CCC;
+    padding: 15px 15px 15px 25px;
+    margin: 0;
+}
+
+.messages-list {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+    .messages-list .mbp {
+        padding-top: 26px;
+    }
+
+.window_loading {
+    font-family: 微软雅黑,verdana,Arial,Helvetica,sans-serif;
+    background: url("loading.gif") no-repeat scroll 5px 50% #FFA53A;
+    border: 1px solid #4A6B84;
+    color: #FFFFFF;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 29px;
+    margin: 0;
+    padding: 0 20px 0 30px;
+    text-align: center;
+}
+ .autocomplete-suggestions
+        {
+            font-size: 16px;
+            border: 1px solid #999;
+            background: #FFF;
+            cursor: default;
+            overflow: auto;
+            -webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64);
+            -moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64);
+            box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64);
+        }
+        .autocomplete-suggestion
+        {
+            padding: 5px 10px;
+            white-space: nowrap;
+        
+        }
+        .autocomplete-no-suggestion
+        {
+            padding: 5px 10px;
+        }
+        .autocomplete-selected
+        {
+            background: #F0F0F0;
+        }
+        .autocomplete-suggestions strong
+        {
+            font-weight: normal;
+            color: #3399FF;
+        }
+        .bottom
+        {
+            bottom: 0px;
+            display: block;
+            font-family: 微软雅黑;
+            font-size: 14px;
+            height: 51px;
+            left: 0px;
+            right: 0px;
+            line-height: 20px;
+            margin-bottom: 0px;
+            min-height: 50px;
+            position: fixed;
+            z-index: 1030;
+            background-color: #f5f5f5;
+            border: 1px solid #e3e3e3;
+            padding: 10px;
+        }
+        .window_loading
+        {
+	        font-family:微软雅黑,verdana,Arial,Helvetica,sans-serif;
+	        background:url("loading.gif") no-repeat scroll 5px 50% #FFA53A;
+	        border:1px solid #4A6B84;
+	        color:#FFFFFF;
+	        display:block;
+	        font-size:12px;
+	        font-weight:bold;
+	        line-height:29px;
+	        margin:0;
+	        padding:0 20px 0 30px;
+	        text-align:center;
+        }

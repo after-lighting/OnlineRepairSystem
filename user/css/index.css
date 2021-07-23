@@ -1,0 +1,63 @@
+
+
+header{background:url(../images/banner1.png) no-repeat top center;}
+.codepic img{width:80px;height:25px;margin-top:4px;}
+
+.side_r{}
+.side_r h3{padding-bottom:16px;font-weight:normal;}
+.divide{float:left;padding-left:18%;display:block;}
+.side_r .code{float:left;width:64%;padding-left:18%;text-align: center;}
+.side_r .txt{padding-left:26%;}
+.side_r .txt p{margin-bottom:10px;}
+textarea {
+    width: 100%;
+}
+
+
+
+
+
+@media (max-width: 992px) {
+    /*.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{border:1px solid #ddd;border-radius: 4px;}*/
+    aside .divide{display: none;}
+    .side_r{padding-top:30px;border-top:1px solid #eeeeee;}
+    .side_r .code{width:70%;text-align:center;padding-left:33%;}
+    .side_r .txt{padding:0;}
+}
+
+@media (max-width: 768px) {
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{background:#0461bd;}
+    .navbar-header{height:64px;}
+    .side_r .code{width:80%;padding-left:20%;}
+}
+
+
+/*
+.header{height:230px;background:#335f91;margin:0 auto;}
+.main{background:#fbfbfb;margin:0 auto;}
+.footer{background:#eee;text-align:center;margin:0 auto;padding:20px 0 40px;}
+.main-nav{height:63px;background:url(../images/nav_bg.png) repeat-x;}
+.main-nav .nav-tabs{border:none;}
+
+.nav-tabs>li{text-align:center;padding:0;border-left:1px solid #d0d0d0;border-right:1px solid #d0d0d0;margin-left:-1px;background-image: -moz-linear-gradient(top,#fff,#f5f5f5);
+    background-image: -webkit-linear-gradient(top,#fff,#f5f5f5);
+    background-image: -ms-linear-gradient(top,#fff,#f5f5f5);
+    background-image: linear-gradient(top,#fff,#f5f5f5);}
+.nav-tabs>li .active{border:0;}
+.main_nav .nav-tabs>li>a{line-height:60px;font-size:16px;border-radius:0;margin:0;}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{border:0;color:#335f91;}
+.nav>li>a{padding:0;border:0;}
+.panel-body{padding:46px 0;}
+label span{color:#666;font-weight:normal;}
+
+
+
+@media screen and (max-width: 992px) {
+    .panel-body{padding:20px 0 40px 0;}
+
+}
+
+@media screen and (max-width: 750px) {
+
+}
+*/

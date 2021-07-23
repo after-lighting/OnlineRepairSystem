@@ -1,0 +1,19 @@
+.panel-heading{padding:10px 15px;}
+.panel-heading h4{font-weight:normal;}
+
+.panel-body{padding-top:36px;}
+textarea{width:100%;}
+.side_r h3{padding-bottom:16px;font-weight:normal;}
+.divide{float:left;padding-left:18%;display:block;}
+.side_r .code{float:left;width:64%;padding-left:18%;text-align: center;}
+.side_r .txt{padding-left:26%;}
+.side_r .txt p{margin-bottom:10px;}
+
+@media (max-width: 992px) {
+    .divide{display:none;}
+    .side_r{padding-top:30px;border-top:1px solid #eeeeee;}
+    .side_r .code{width:70%;text-align:center;padding-left:33%;}
+    .side_r .txt{padding:0;}
+}
+
+@media (max-width: 768px) {}

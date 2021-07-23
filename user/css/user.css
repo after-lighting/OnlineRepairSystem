@@ -1,0 +1,72 @@
+
+.main{background:#fbfbfb;margin:0 auto;}
+/*
+.main-nav{height:63px;background:url(../images/nav_bg.png) repeat-x;}
+
+*/
+.main-nav{
+    height: 64px;
+    z-index: 1010;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+    -moz-box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+    -webkit-box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+    background-color: #1976d2;
+}
+.main-nav .nav-tabs{border:none;}
+.navbar-default .navbar-brand{color:#fff;}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav>li>a{color:#fff;}
+
+
+.navbar-default{background:transparent;border:none;z-index:100;}
+.navbar-toggle{margin-top:13px;margin-bottom:13px;}
+/*.navbar-nav > li > a{padding-top:15px;padding-bottom:15px;}*/
+
+
+
+.main-container{padding-top:16px;}
+.panel-heading{padding:10px 15px 0;}
+
+.nav-tabs{border-bottom:0;}
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td{border-bottom:1px solid #ddd;}
+.table>thead>tr>th{border-bottom:2px solid #ddd;}
+.badge{margin-left:6px;}
+.panel-default>.panel-heading .badge{background: #6d6d6d;}
+
+thead tr{border:1px solid transparent;}
+tbody tr{border:1px solid transparent;}
+
+
+.footer{background:#eee;text-align:center;margin:0 auto;padding:20px 0 40px;}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{ background: #0461bd;}
+    .navbar-header{height:62px;    background: #1976d2;}
+
+    .navbar-form{padding:14px 15px;}
+    .container .jumbotron{margin-bottom:0;border-radius:0;}
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: #1976d2;border:0;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: #fff;
+    }
+    .dropdown-menu .divider {
+        height: 1px;
+        margin: 9px 0;
+        overflow: hidden;
+        background-color: #267ace;
+    }
+}
