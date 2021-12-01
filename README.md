@@ -1,2 +1,2 @@
 # OnlineRepairSystem
-my .NET demo website as a graduation project in 2019
+online repair system via .NET framework in 2019
